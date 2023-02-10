@@ -39,4 +39,17 @@ img {
    width: 100%;
 }
 
-
+/* Nvabar */
+.navbar{
+   background-color: var(--color-base);
+}
+@media (min-width: 992px) {
+   .navbar {
+       min-height: 100vh;
+       width: var(--sidbar-width);
+       background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)), 
+       url('../images/sidebar-img.jpg');
+       background-size: cover;
+       background-position: center;
+   }
+}
